@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class=container>
+        <form action="/predict" method="post">
+            <div>
+                <h1>Let us predict Population</h1>
+            </div>
+            <br>
+            <p>Enter year : </p>
+            <input name="year" type="text">
+            <br>
+            <p>Enter %growth : </p>
+            <input name="perGrowth" type="text">
+            <br>
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+
+</body>
+
+</html>
